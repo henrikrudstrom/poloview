@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "rx.wamp": {
+      "version": "0.5.0",
+      "dependencies": {
+        "rx": {
+          "version": "2.3.25"
+        },
+        "autobahn": {
+          "version": "0.9.9",
+          "dependencies": {
+            "crypto-js": {
+              "version": "3.1.6"
+            },
+            "when": {
+              "version": "3.7.7"
+            },
+            "ws": {
+              "version": "1.0.1",
+              "dependencies": {
+                "options": {
+                  "version": "0.0.6"
+                },
+                "ultron": {
+                  "version": "1.0.2"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
